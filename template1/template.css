@@ -1,0 +1,74 @@
+/*div {border: 1px solid silver; margin: 1px}/**/
+/*td {border: 1px solid green; margin: 2px}/**/
+.wrap {
+	width: 98%;
+	padding-left:0.5em;
+	clear: both;
+	overflow: auto;
+}
+.middle {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 630px;
+	width:expression(document.body.clientWidth > 640? "640px": "auto" );
+	clear: both;
+	overflow: hidden;
+}
+.left {
+	float:left;
+	width: 23%;
+	padding-right: 0.5em;
+}
+.right {
+	width: 74%;
+	overflow: hidden;
+}
+.border li, .contentdescription li {display:inline; margin-right: 1em;}
+ul.menu {margin:0; padding:0}
+
+img {border:0; behavior: url("/iepngfix.htc");}
+
+.componentheading, .contentheading, h4, h3, h2, td.contentheading {
+	font-size: 1.3em;
+	font-weight: normal;
+	margin:0;
+	padding:0;
+	padding-bottom: 1em;
+}
+.contentpaneopen img, img.caption {margin-right: 1em; max-width:340px; float:left;}
+.crumb, th {font-size: small; text-align:right; color:gray;}
+.crumb a{text-decoration:none; color:gray}
+.crumb a:hover{text-decoration:underline}
+.border {
+	border-top: 1px dotted silver;
+	border-bottom: 1px dotted silver;
+	padding-top: .5em;
+	padding-bottom: .8em;
+}
+.menu li {margin-bottom: 0.6em;}
+.sectiontableheader {background-color:#fafafa; padding:.5em; font-size:small; font-weight:bold}
+.sectiontableentry1 td, .sectiontableentry2 td {padding: .5em;}
+.sectiontableentry2 td {background-color:#fafafa}
+h1 a {text-decoration: none; font-weight:normal}
+.contentheading a {color:black; text-decoration:none}
+.left li a{text-decoration:none}
+.left li a:hover{text-decoration:underline}
+.active a{font-weight:bold; text-decoration:none}
+
+body {font-family: Tahoma, sans-serif; font-size: 89%;}
+
+.contentpaneopen span, a#addcomments, .createdate, .contentpaneopen span a {color:silver; font-size:x-small; margin:0; padding:0; font-weight:normal}
+a.refresh {display:none}
+.message {padding: 1em; color:red; font-weight:bold;}
+
+form {margin:0;}
+#login { font-size:small; width:6em;}
+#pass { font-size:small; width:3.9em;}
+form * {color:silver; font-size:small;}
+.border ul {float:right;}
+.border {overflow: hidden;}
+.border form {display:inline}
+form input{border: 1px dotted silver; background-color:white}
+#search {border: 1px solid silver}
+.border {color: silver; font-size: small;}
