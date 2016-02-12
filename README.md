@@ -4,7 +4,7 @@
 <ul>
 <li>Паттерн MVC</li> 
 <li>Шаблоны разметки</li>
-<li>Flash</li>
+<li>FlEX (Flash)</li>
 </ul>
 </p>
 <p>
