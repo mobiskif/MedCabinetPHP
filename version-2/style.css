@@ -1,0 +1,55 @@
+.table td {border: 1px solid silver;}
+img {border:0}
+body {
+	font-family: Tahoma, sans-serif; 
+	font-size: 89%;
+	text-align:center;
+} 
+div.body {
+	font-family: Tahoma, sans-serif; 
+	font-size: 89%;
+	max-width: 860px;
+	min-width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0px solid silver;
+	border-radius: 8px;
+	width:expression(document.body.clientWidth > 860? "860px": "auto" );
+	padding: 0.5em;
+} 
+#ytPlayer, #video{
+	/*width: 100%;*/
+}
+h1, h2 {font-weight:normal;}
+h1 {margin-bottom:0;}
+h2 {margin-top:0; font-size: 1.3em;}
+
+.menu_top li, .imglist li  {
+	list-style:none;
+	display:inline;
+	padding-right: 1em;
+	font-size:x-small;
+}
+ul.menu_top {
+	margin:0; padding:1em;
+	padding-top:0;
+	border-top: 0px dotted silver;
+	border-bottom: 0px dotted silver;
+}
+
+iframe {
+	width: 100%;
+	border: 0;
+	overflow: none;
+}
+
+#nullimg {width: 100%}
+
+dt {float:left; padding-right:1em;}
+dl {clear: both; border: 0px solid; overflow:auto;}
+
+
+/*
+	background: white url(./res/blue-back.jpg) no-repeat center top;
+	width:expression(document.body.clientWidth > 310? "310px": "auto" );
+*/

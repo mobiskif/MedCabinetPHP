@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<application xmlns="http://ns.adobe.com/air/application/2.6">
+  <id>flexvideochat</id>
+  <versionNumber>1.0</versionNumber>
+  <filename>flexvideochat</filename>
+  <name>
+    <text xml:lang="ru">flex_videochat</text>
+  </name>
+  <initialWindow>
+    <title>flex_videochat</title>
+    <content>flexvideochat.swf</content>
+    <systemChrome>standard</systemChrome>
+    <transparent>false</transparent>
+    <visible>true</visible>
+    <minimizable>true</minimizable>
+    <maximizable>false</maximizable>
+    <resizable>false</resizable>
+    <width>320</width>
+    <height>240</height>
+    <aspectRatio>landscape</aspectRatio>
+    <renderMode>auto</renderMode>
+    <autoOrients>false</autoOrients>
+    <fullScreen>false</fullScreen>
+  </initialWindow>
+  <allowBrowserInvocation>true</allowBrowserInvocation>
+  <customUpdateUI>true</customUpdateUI>
+<!--
+  <icon>
+    <image128x128>icons/icon_128.png</image128x128>
+  </icon>
+-->
+  <description>
+    <text xml:lang="ru">Простое приложение</text>
+  </description>
+  <copyright>dp</copyright>
+  <versionLabel>1.2</versionLabel>
+  <supportedProfiles>desktop extendedDesktop mobileDevice tv extendedTV</supportedProfiles>
+</application>

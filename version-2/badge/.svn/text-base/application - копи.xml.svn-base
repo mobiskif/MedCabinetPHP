@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?> 
+<application xmlns="http://ns.adobe.com/air/application/2.6"> 
+	
+	<id>flexvideochat</id> 
+	<versionNumber>1.0</versionNumber> 
+	<filename>flexvideochat</filename> 
+	
+	<name>flexvideochat</name> 
+	<description></description> 
+	<copyright></copyright> 
+	
+	<initialWindow> 
+		<title>flexvideochat</title> 
+		<content>flexvideochat.swf</content> 
+		<systemChrome>standard</systemChrome> 
+		<transparent>false</transparent> 
+		<visible>true</visible> 
+		<minimizable>true</minimizable> 
+		<maximizable>true</maximizable> 
+		<resizable>true</resizable> 
+	</initialWindow> 	
+	<!--  
+	 <icon>
+        <image48x48>icon_48.png</image48x48>
+        <image128x128>icon_128.png</image128x128>
+    </icon>
+        <image16x16>icons/icon_16.png</image16x16>
+        <image32x32>icons/icon_32.png</image32x32>
+	More options:
+	http://livedocs.adobe.com/flex/3/html/File_formats_1.html#1043413
+	-->
+</application>
